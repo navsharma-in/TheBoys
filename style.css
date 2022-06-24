@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.main-section{
+     background-image: url(https://images8.alphacoders.com/111/thumb-1920-1116551.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 1vmax 10vmax;
+    color: brown;
+}
+nav > h1{
+    color: brown;
+    font: 900 3vmax "Anek Malayalam";
+    
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    height: 20%;
+    background-color: rgba(250, 235, 215, 0.062);
+    border-radius: 100px;
+    
+
+}
+nav>button{
+    padding: 0.5vmax 0.5vmax;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0.8vmax;
+    background-color: rgb(229, 66, 88);
+    background-clip: padding-box;
+    color: rgb(255, 255, 255);
+    font: 600 1vmax "Anek Malayalam";
+
+}
+
+nav > ul {
+    list-style: none;
+    font: 700 1.2vmax "Anek Malayalam";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+nav > ul > li {
+    padding: 0 1.5vmax;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* transition: 1s all cubic-bezier(0.98, 0, 0.31, 0.99); */
+    transition: 1.25s all ease;
+    position: relative;
+}
+nav > ul > li::after {
+    content: "";
+    width: 0%;
+    height: 5%;
+    background-color: rgb(231, 16, 16);
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    transition: 1.25s all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+nav > ul > li:hover::after {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+nav > ul > li:hover {
+    background-color: rgba(255, 255, 255, 0.336);
+    cursor: pointer;
+    /* text-shadow: 0 0 13px rgb(173, 13, 144); */
+}
+.sub-section>h1{
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+    padding-left: 1vmax;
+    width: 110%;
+    margin-top: 20px;
+    font: 900 2.5vmax "Anek Malayalam";
+    font-style: italic;
+    background-color: rgba(250, 235, 215, 0.11);
+    border-radius: 20px;
+    
+    
+}
+span{
+    font: 800 2.5vmax "Anek Malayalam";
+    color: brown;
+}
+div>form {
+    width: 60%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    margin-top: 30%;
+}
+
+.content-two > input {
+    width: 50%;
+    height: 5%;
+    border-radius: 0.5vmax;
+    padding: 0 0.5vmax;
+    font: 400 1vmax "Anek Malayalam";
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    background-color: white;
+    background-clip: padding-box;
+    outline: none;
+    margin: 0.2vmax;
+}
+
+
+
