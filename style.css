@@ -101,7 +101,8 @@ nav > ul > li:hover {
 }
 span{
     font: 800 2.5vmax "Anek Malayalam";
-    color: brown;
+    color: rgb(243, 233, 233);
+    font-style: italic;
 }
 div>form {
     width: 60%;
